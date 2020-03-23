@@ -1,0 +1,11 @@
+	let start = 2
+	let end = 4
+	let x = start
+xloop:	let y = start
+yloop:	print x
+	print y
+	let y = y + 1
+	if y <= end goto yloop
+	let x = x + 1
+	if x <= end goto xloop
+	print "done"

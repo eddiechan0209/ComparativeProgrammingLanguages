@@ -1,0 +1,6 @@
+	let xx = 1
+	let yy = 2
+	let zz = xx - yy
+	let bb = xx ^ yy
+	print zz
+	print bb

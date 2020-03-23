@@ -1,0 +1,5 @@
+	let xx = 1
+	let yy = 2
+	print xx , yy , xx + yy
+	print "xx =" , xx
+	print "end"

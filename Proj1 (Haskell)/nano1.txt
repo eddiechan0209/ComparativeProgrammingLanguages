@@ -1,0 +1,5 @@
+let x = 2 //Symbol table [("x",2)]
+let x = x + 1
+let y = x
+print x
+print y

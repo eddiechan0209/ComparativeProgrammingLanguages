@@ -1,0 +1,4 @@
+	let xx = 1
+	let yy = 2
+	print xx + yy
+	print "end"

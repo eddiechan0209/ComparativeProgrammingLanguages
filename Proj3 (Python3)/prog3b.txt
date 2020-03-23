@@ -1,0 +1,11 @@
+	print "enterTwoNumbers"
+	input start
+	input end
+	if start > end goto exit
+	let x = start
+	print "enter some more numbers"
+repeat:	input user
+	print user * user
+	let x = x + 1
+	if x <= end goto repeat
+exit:	print "done"
